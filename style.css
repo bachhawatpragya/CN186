@@ -1,0 +1,200 @@
+ 
+*{
+    font-family:sans-serif;
+    font-size:large;
+    font-weight:bold;
+}
+div{
+    display: inline-block;
+    margin:5px
+}
+.menu{
+    border:0px;
+    margin:0px;
+    padding:10px 30px;
+    word-spacing: 50px;
+    background-color: aliceblue;
+
+}
+a:hover {
+    color: orange;
+}
+.h7{
+    float:inline-end;
+
+}
+p{
+    
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color:white;
+    
+
+}
+.h1{
+    background-color: rgb(37, 123, 176);
+    color:white;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin:0px;
+    padding:7px 10px;
+    
+    
+    
+}
+body{
+    background-image: url("backimg2.jpg");
+    background-repeat: no-repeat;
+    margin-bottom:10%;
+    margin-top:0px;
+    border:0;
+}
+p{
+    margin: 10px;
+    font-size: 80px;
+}
+h2{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    
+}
+h3{
+    text-align: center;
+    color:white;
+    /* font-size: 30px; */
+}
+.footer{
+    text-align: center;
+    margin-top: 8%; 
+
+}
+a:hover{
+    color: orange;
+}
+.section-footer{
+    background-color: purple;
+    border:0;
+    margin-top:0px;
+
+}
+ a:hover{
+    color:purple;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 10px;
+}
+
+.social-links {
+    display: inline-block;
+    text-align: right;
+    margin: 20px;
+    padding-left: 640px;
+    word-spacing: 10px;
+}
+
+.recom{
+    margin-top:23%;
+    margin-bottom: auto;
+    border:0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.best-deals {
+    margin-top:16%;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.best-deals h2 {
+    color: #333;
+}
+
+.deal-card {
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.deal-card img {
+    max-width: 100%;
+}
+
+.deal-info {
+    padding: 10px;
+}
+.deal-info h3 {
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.deal-info p {
+    color: #777;
+}
+
+.price {
+    font-size: 24px;
+    color: #e74c3c;
+}
+ 
+.button{
+    border: 20px solid blue;
+    border-radius: 30px;
+    background-color: blue;
+    color:white;
+    text-decoration: none;
+    
+
+}
+.button:hover{
+    color:orange;
+}
+.places{
+    font-size: small;
+}
+.logoimage{
+    text-align: center;
+    
+} 
+.legal-links{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+}
+.pitch:hover{
+    color: orange;
+    
+}

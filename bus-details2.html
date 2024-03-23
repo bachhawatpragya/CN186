@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            background-image: url("Busbg.jpeg.jpg"); 
+        }
+        .container {
+            width: 40%;
+            margin: 0 auto;
+            background-color:rgb(255, 255, 255,0.5);
+            padding: 20px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            border-radius: 10px;
+        }
+        
+        h2{
+            text-align: center;
+            color:rgb(33, 19, 116);
+            font-size: 55px; 
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        h2:hover{
+            color:orange;
+        }
+        
+        label {
+            display: block;
+            margin: 15px 0 5px 0;
+        }
+        input[type="text"],
+        input[type="date"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid purple;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            width: 100%;
+            background-color: purple;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>Book Your Road Trip</h2>
+    
+
+<div class="container">
+    <form>
+        <label for="source">Form:</label>
+        <input type="text" placeholder="From" id="source" name="source" required>
+
+        <label for="destination">To:</label>
+        <input type="text" placeholder="Enter Your Destination" id="destination" name="destination" required>
+
+        <label for="date">Date of Travel:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="passengers">Number of Passengers:</label>
+        <select  id="passengers" name="passengers" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+</body>
+</html>
